@@ -44,9 +44,18 @@
       margin-top: 35px;
       background-size: contain;
     }
-    .car-part-5{
+     .car-part-5{
       height: 435px;
       margin-top: 35px;
+      .hover-text-part{
+        &::before{
+          height: 436px;
+          width: 681px;
+        }
+        .row-text{
+          margin-top: 60px;
+        }
+      }
     }
     .car-part-6{
       height: 435px;
